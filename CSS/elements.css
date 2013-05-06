@@ -1,0 +1,27 @@
+/***************** QUESTIONS *****************/
+#questions-list {
+	position:relative;
+}
+
+#questions-list li {
+	overflow:hidden;
+	position:absolute;
+	width:100%;
+	background:goldenrod;
+}
+
+#questions-list li > figure {
+	float:left;
+}
+
+#questions-list legend span {
+	display:block;
+}
+
+#questions-list fieldset {
+	margin-bottom:40px;
+}
+
+.current-question {
+	z-index: 1;
+}
